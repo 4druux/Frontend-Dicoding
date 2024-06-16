@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+header {
+  background: #538392;
+  padding: 16px;
+  color: white;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  padding: 1.4rem 3%;
+}
+
+aside {
+  padding: 1.4rem 3%;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+}
+
+/* input book */
+.input_section {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.input_section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #538392;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+#inputBook button {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  background-color: #538392;
+  border: 1px solid #538392;
+  color: #000;
+}
+
+#inputBook button:hover {
+  cursor: pointer;
+  background-color: #538392;
+  border: 1px solid #538392;
+  color: #fff;
+}
+
+#inputBookTitle,
+#inputBookYear,
+#inputBookAuthor {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+/* search book */
+.search-section {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 1.4rem;
+}
+
+.title-search h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #538392;
+}
+
+.input-search {
+  display: flex;
+  gap: 1rem;
+}
+
+#search-title {
+  width: 70%;
+  outline: none;
+  border-radius: 5x;
+}
+
+#search {
+  width: 20%;
+  border-radius: 5px;
+  background-color: #538392;
+  border: 1px solid #538392;
+  color: #000;
+}
+
+#search:hover {
+  cursor: pointer;
+  background-color: #538392;
+  border: 1px solid #538392;
+  color: #fff;
+}
+
+/* Book Shelf */
+.book-shelf {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  padding: 1.4rem;
+  margin-top: -1.3rem;
+}
+
+.book-shelf h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #538392;
+}
+
+.book-list {
+  padding: 16px;
+}
+
+.book_item {
+  padding: 8px 16px 16px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_item h3,
+p {
+  margin: 8px 0;
+}
+
+.action button {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action .green {
+  background-color: darkgreen;
+  color: white;
+}
+
+.action .red {
+  background-color: darkred;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background: #538392;
+  padding: 16px;
+  color: white;
+  margin-top: 1rem;
+  text-align: center;
+}
